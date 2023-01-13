@@ -1,0 +1,31 @@
+{
+  "config": {
+    "title": "The best art website",
+    "description": "I believe in art, I believe in stARTups teehee",
+    "baseUrl": "localhost:1313",
+    "logo": "http://placekitten.com/20/30",
+    "favicon": "http://placekitten.com/2/2"
+  },
+  "contract": {
+    "price": 10,
+    "address": "0xB7Fb42699Ed5f99D0f1A426897277fa1E043EAbF"
+  },
+  "sections": [
+    {
+      "type": "nav"
+    },
+    {
+      "type": "home",
+      "content": "This is the home of art\n",
+      "button": {
+        "label": "Mint Now"
+      },
+      "image": "http://placekitten.com/300/300"
+    },
+    {
+      "type": "about",
+      "content": "First things first im the realest\n",
+      "image": "http://placekitten.com/300/300"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ partial "nav" (index site.Data.project.sections 0) }}
+{{ partial "home" (index site.Data.project.sections 1) }}
+{{ partial "about" (index site.Data.project.sections 2) }}
+{{ end }}
